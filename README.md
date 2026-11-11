@@ -8,6 +8,14 @@ A 301-page guide to one camera, built around the way a traveler actually uses it
 
 **Stills only.** The movie tabs, the movie-side customization table and everything about recording are out of scope, and the book says so where a reader might expect otherwise. A guide that pretends to cover both covers neither.
 
+## Not a chatbot's answer
+
+Ask a chatbot how to set up a camera and you get a **closed-book exam**: the answer comes from whatever the model half remembers, and a wrong menu path arrives in the same confident tone as a right one, which is a sound reason to distrust the whole answer.
+
+This book was an **open-book exam**. The assistant worked from documents put in front of it: Canon's *EOS R5 Mark II Advanced User Guide*, menu addresses read out of that PDF's own index links, photographs of the camera, and reports other owners have published. Every factual claim says where it came from, and where one rests on a single owner's report rather than on Canon's documentation, the sentence says so. Where the documents did not settle a question, I own the camera and went and looked.
+
+Open book does not mean error-free, and no book ever is. Manufacturers ship manuals with errata pages, and books by human experts get corrected in the second printing. What is different here is that the errors are published instead of quietly fixed: [`docs/ERRORS.md`](docs/ERRORS.md) lists every one that was caught while the book was being built, and what caught it. Judge the process on that list rather than on the word *AI*.
+
 ## Why this book exists
 
 I came to the R5 Mark II from a Canon EOS 5DS R I had shot with for almost ten years. That is a long way to jump in one step, and I wanted a manual to catch up on the new hardware and set it up for the way I work. I tried a few of the R5 Mark II guides that already exist and none of them fitted: a great deal of detail I did not need, and not enough of what I did.
@@ -32,7 +40,7 @@ The ingredients are modest: an **AI assistant**, the **manufacturer's manual**, 
 
 ## Download
 
-The book is attached to the [latest release](../../releases/latest) in three formats: **PDF** for a tablet or e-reader, **EPUB** for a phone or Kindle, and **DOCX** if you want to edit it. Free, with no paywall and no registration.
+The book is attached to the [latest release](../../releases/latest) in three formats: **PDF** for a tablet or e-reader, **EPUB** for a phone or Kindle, and **DOCX** if you want to edit it, all free to download with no paywall and no registration.
 
 It is typeset for a 6.75 × 9 in page with a 5.75 in text column, and the figures are leveled for a sixteen-gray e-paper panel, because that is what it was built to be read on.
 
