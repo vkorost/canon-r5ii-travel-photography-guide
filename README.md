@@ -10,23 +10,29 @@ A 301-page guide to one camera, built around the way a traveler actually uses it
 
 ## Why this book exists
 
-I am not a professional photographer and I do not shoot every day. I shoot when I travel, which is a few times a year, so by the time the next trip comes round I have forgotten most of what I worked out on the last one. I bought the R5 Mark II recently and wanted two things from it: a configuration I could set once, custom modes included, and then stop thinking about, and a refresher I could read before each trip.
+I came to the R5 Mark II from a Canon EOS 5DS R I had shot with for almost ten years. That is a long way to jump in one step, and I wanted a manual to catch up on the new hardware and set it up for the way I work. I tried a few of the R5 Mark II guides that already exist and none of them fitted: a great deal of detail I did not need, and not enough of what I did.
 
-Shooting that rarely creates two problems, and much of the book is shaped around them.
+I am not a professional photographer either, and I do not shoot every day. I shoot when I travel, a few times a year, so by the time the next trip comes round I have forgotten most of what I worked out on the last one. What I wanted was a camera I could configure once, custom modes included, and a refresher I could read before each trip.
 
-**Settings you forget to unset.** You change something for one frame, the moment passes, and the camera goes on obeying you. Nothing on the back screen warns you, and at the magnification you review at, the files look fine. I have found the damage later, at home, in pictures I could not take again. Chapter 13 is about that, with a register of every setting that behaves this way and what each one costs you.
+So I had Claude build it. The book combines Canon's own manual with what other R5 Mark II owners have published, fitted to my hardware and my habits. The chapters follow **where your hands are on the body** rather than the feature list, every setting carries its **full menu path**, and the lens advice is written for the lenses actually in the bag. I also handed over a few dozen of my own frames, so the book could work from what I photograph rather than from what I say I photograph.
+
+Shooting a few times a year causes two particular problems, and the book is built around both of them.
+
+**Settings that stay set.** You change something for one scene, the moment passes, and the camera goes on obeying you. Nothing in the viewfinder tells you anything is wrong, and at the magnification you review at the files look fine. I have found the damage later, at home, in pictures I could not take again. The book flags every setting that can behave this way, and for the rest it says which ones you set once and never touch again.
 
 **Customization you cannot remember.** Reassigning buttons and building custom modes is worth doing. Recalling six months later what you changed, and why, while standing in front of something you want to photograph, is a different matter. The book records the reasoning next to each decision, so the configuration can be rebuilt or questioned rather than merely trusted.
 
 ## Why it is on GitHub
 
-Not mainly so that people read this particular book about this particular camera. It is here so that anyone who wants a guide like this for their own hardware can see that building one is now possible, and can see exactly what I did, how I did it and why. That account lives in [`docs/`](docs/), and to most visitors it is worth more than the book.
+Not mainly so that people read this particular book about this particular camera. Probably nobody else has my exact combination of body, lenses and habits. The point is that **anyone working with an AI assistant can now build the equivalent for their own gear**, and the best moment to do it is the week after buying a camera. It does not have to be Claude, and you do not have to be an expert in any of this.
+
+What that takes is in [`docs/`](docs/): exactly what I did, how I did it, and what went wrong on the way. To most visitors here, that account is worth more than the book.
 
 The ingredients are modest: an **AI assistant**, the **manufacturer's manual**, a **few photographs of the hardware**, and **reports of how other owners actually use it**. The two things no assistant supplies are **someone who owns the hardware to say *that is wrong***, and the discipline to label what you do not know.
 
 ## Download
 
-The book is attached to the [latest release](../../releases/latest) in three formats: **PDF** for a tablet or e-reader, **EPUB** for a phone or Kindle, and **DOCX** if you want to edit it.
+The book is attached to the [latest release](../../releases/latest) in three formats: **PDF** for a tablet or e-reader, **EPUB** for a phone or Kindle, and **DOCX** if you want to edit it. Free, with no paywall and no registration.
 
 It is typeset for a 6.75 × 9 in page with a 5.75 in text column, and the figures are leveled for a sixteen-gray e-paper panel, because that is what it was built to be read on.
 
