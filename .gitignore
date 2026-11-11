@@ -1,0 +1,43 @@
+# ---------------------------------------------------------------- the book
+# Built formats attach to the GitHub Release rather than being committed:
+# they are already-compressed archives that git cannot delta, so every
+# revision would store a near-complete copy and grow the repository
+# permanently. README download links point at /releases/latest/.
+book/*.pdf
+book/*.epub
+book/*.docx
+
+# --------------------------------------------- source material and figures
+# The manufacturer's manual, everything extracted from it, and the working
+# image sets the figures are built from. The book embeds what it needs; none
+# of it is redistributed here as loose files.
+*.pdf
+!docs/*.pdf
+manual/
+figures/
+figures-bw/
+figures-epaper/
+figures-hi/
+figures-manual/
+icons/
+images/
+pictures/
+
+# ------------------------------------------------------------- the manuscript
+# Not published as loose files; see README. The tools expect a directory of
+# this shape, they do not ship with one.
+chapters/
+chapters-*/
+working/
+build/
+preview/
+
+# ------------------------------------------------------------------ the usual
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+*.bak
+~$*
