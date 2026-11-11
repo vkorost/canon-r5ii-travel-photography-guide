@@ -8,13 +8,17 @@ A 301-page guide to one camera, built around the way a traveler actually uses it
 
 **Stills only.** The movie tabs, the movie-side customization table and everything about recording are out of scope, and the book says so where a reader might expect otherwise. A guide that pretends to cover both covers neither.
 
-## Not a chatbot's answer
+## Why I trust the book I built
 
-Ask a chatbot how to set up a camera and you get a **closed-book exam**: the answer comes from whatever the model half remembers, and a wrong menu path arrives in the same confident tone as a right one, which is a sound reason to distrust the whole answer.
+None of this was a matter of asking a chatbot and pasting the answer into a document. That difference is the reason I am willing to set my own camera from it.
 
-This book was an **open-book exam**. The assistant worked from documents put in front of it: Canon's *EOS R5 Mark II Advanced User Guide*, menu addresses read out of that PDF's own index links, photographs of the camera, and reports other owners have published. Every factual claim says where it came from, and where one rests on a single owner's report rather than on Canon's documentation, the sentence says so. Where the documents did not settle a question, I own the camera and went and looked.
+Ask a chatbot how to set up a camera and it answers **from memory**, the way someone would who read the manual once, a year ago, and is now recalling it out loud. A wrong menu path comes out in exactly the same confident tone as a right one, and there is no way to tell which you got. Distrusting that is sound.
 
-Open book does not mean error-free, and no book ever is. Manufacturers ship manuals with errata pages, and books by human experts get corrected in the second printing. What is different here is that the errors are published instead of quietly fixed: [`docs/ERRORS.md`](docs/ERRORS.md) lists every one that was caught while the book was being built, and what caught it. Judge the process on that list rather than on the word *AI*.
+This book was written the other way, **with the documents open**. Nothing came from the assistant's memory. Everything came from material put in front of it: Canon's *EOS R5 Mark II Advanced User Guide*, menu addresses read out of that PDF's own index links, photographs of the camera, and reports other owners have published. Every factual claim says where it came from, and the page number is in the back, so any statement in the book can be checked against Canon's own wording in about a minute. Where a claim rests on one owner's report rather than on Canon's documentation, the sentence says so. Where the documents did not settle a question, I own the camera and went and looked.
+
+Then I set every setting in the book on the actual camera, walked every menu tab, built the three custom modes from the book's own recipes and used the configuration in the field. What worked stayed. What did not was fixed in the book. [`docs/GROUNDING.md`](docs/GROUNDING.md) is the full account of what was checked that way and what it caught.
+
+Working from the documents does not make a book error-free, and no book ever is. Manufacturers ship manuals with errata pages, and books by human experts get corrected in the second printing. What is different here is that the errors are published instead of quietly fixed: [`docs/ERRORS.md`](docs/ERRORS.md) lists every one that was caught while the book was being built, and what caught it. Judge the process on those two pages rather than on the word *AI*.
 
 ## Why this book exists
 
@@ -60,6 +64,7 @@ Three conventions run through it. **Menu paths** give every setting its full add
 | | |
 |---|---|
 | [`docs/METHOD.md`](docs/METHOD.md) | the recipe, step by step, why each step exists, how the book gets built, and what it takes to do this for your own hardware |
+| [`docs/GROUNDING.md`](docs/GROUNDING.md) | what the book was grounded in, and what the owner checked with the camera in hand |
 | [`docs/ERRORS.md`](docs/ERRORS.md) | every error the AI made, and how each one was caught |
 | [`docs/FIGURES.md`](docs/FIGURES.md) | the figure problem: how a book like this gets its illustrations |
 | [`docs/RESEARCH.md`](docs/RESEARCH.md) | how claims were sourced, graded and labeled |
