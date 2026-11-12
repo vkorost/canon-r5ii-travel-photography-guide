@@ -4,7 +4,7 @@
 
 ### Travel Photography Manual
 
-A 301-page guide to one camera, built around the way a traveler actually uses it, and an account of the method that produced it. Free to download, in PDF, DOCX and EPUB.
+A guide to one camera, over 300 pages, built around the way a traveler actually uses it, and an account of the method that produced it. Free to download, in PDF, DOCX and EPUB.
 
 **Stills only.** The movie tabs, the movie-side customization table and everything about recording are out of scope, and the book says so where a reader might expect otherwise. A guide that pretends to cover both covers neither.
 
@@ -24,7 +24,7 @@ Working from the documents does not make a book error-free, and no book ever is.
 
 I came to the R5 Mark II from a Canon EOS 5DS R I had shot with for almost ten years. That is a long way to jump in one step, and I wanted a manual to catch up on the new hardware and set it up for the way I work. I tried a few of the R5 Mark II guides that already exist and none of them fitted: a great deal of detail I did not need, and not enough of what I did.
 
-I am not a professional photographer either, and I do not shoot every day. I shoot when I travel, a few times a year, so by the time the next trip comes round I have forgotten most of what I worked out on the last one. What I wanted was a camera I could configure once, custom modes included, and a refresher I could read before each trip.
+I am not a professional photographer either, and I do not shoot every day. [I shoot when I travel](https://vkorost.zenfolio.com/travelcollection), a few times a year, so by the time the next trip comes round I have forgotten most of what I worked out on the last one. What I wanted was a camera I could configure once, custom modes included, and a refresher I could read before each trip.
 
 So I had Claude build it. The book combines Canon's own manual with what other R5 Mark II owners have published, fitted to my hardware and my habits. The chapters follow **where your hands are on the body** rather than the feature list, every setting carries its **full menu path**, and the lens advice is written for the lenses actually in the bag. I also handed over a few dozen of my own frames, so the book could work from what I photograph rather than from what I say I photograph.
 

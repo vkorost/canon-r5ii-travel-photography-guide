@@ -136,9 +136,9 @@ def d02(fig):
 
     # A measuring bracket under the stretch that matters, instead of a fill.
     for brk, lo, hi, txt, dy, va in (
-            (6.02, 110, 300, "f/5.6 and it cannot open further \u2014 "
+            (6.02, 110, 300, "f/5.6 and it cannot open further, "
              "two-thirds of the range", 0.10, "top"),
-            (6.02, 28, 39, "f/3.5 lives only here \u2014 "
+            (6.02, 28, 39, "f/3.5 lives only here, "
              "11mm of a 272mm range", -0.12, "bottom")):
         ax.plot([lo, hi], [brk, brk], lw=1.0, color=BLACK)
         for e in (lo, hi):
@@ -183,9 +183,9 @@ def d03(fig):
     for side in ("top", "right"):
         ax.spines[side].set_visible(False)
 
-    ax.text(4.55, 4.35, "this body \u2014 4.39 \u00b5m pixels",
+    ax.text(4.55, 4.35, "this body, 4.39 \u00b5m pixels",
             ha="right", va="center", fontsize=9.5, weight="bold", bbox=BOX)
-    ax.text(-0.42, 7.3, "a 2008 body \u2014 8 \u00b5m pixels.\n"
+    ax.text(-0.42, 7.3, "a 2008 body, 8 \u00b5m pixels.\n"
             "The disc hid inside one photosite until\n"
             "about f/12, which is why the old reviews\n"
             "still say f/11 and f/16.",
@@ -196,7 +196,7 @@ def d03(fig):
 # Chapter 3, the relief-panel table:
 #   depth available, normal viewing: f/5.6 99mm, f/8 141, f/11 195, f/16 283
 #   judged at 100%:                  f/5.6 30mm, f/8  42, f/11  58, f/16  85
-#   "Square-on, f/8 covers four centimetres of relief at pixel-level
+#   "Square-on, f/8 covers four centimeters of relief at pixel-level
 #    scrutiny." A 60cm panel 30 degrees off square spans 300mm.
 # --------------------------------------------------------------------------
 @figure("d04_depth_of_field", 5.75, 3.15)
@@ -228,7 +228,7 @@ def d04(fig):
 
     ax.text(2.98, 320, "the same panel, 30\u00b0 off square: 300mm",
             ha="right", va="bottom", fontsize=9, weight="bold", bbox=BOX)
-    ax.text(3.45, 41, "four centimetres of relief \u2014 more than most "
+    ax.text(3.45, 41, "four centimeters of relief, more than most "
             "panels carry", ha="right", va="bottom", fontsize=8.5, bbox=BOX)
     ax.text(0.55, 180, "computed for a postcard", ha="left", va="bottom",
             fontsize=9, bbox=BOX)
@@ -252,14 +252,14 @@ def d05(fig):
                 va="center", weight=("bold" if bold else "normal"))
 
     ax.axhline(16, lw=0.9, color=BLACK, ls=(0, (1, 2.5)), zorder=1)
-    ax.text(0.008, 16.28, "effective f/16 \u2014 no pixel-scale detail left",
+    ax.text(0.008, 16.28, "effective f/16, no pixel-scale detail left",
             fontsize=8.5, va="bottom", ha="left", bbox=BOX)
     ax.plot([0.3, 0.3], [8.0, 14.3], lw=0.9, color=BLACK, ls=(0, (1, 2.5)))
     ax.plot([0.3], [14.3], marker="o", ms=6, mfc="white", mec=BLACK, mew=1.7,
             zorder=3)
     ax.text(0.315, 13.85, "at 0.3\u00d7 a set f/11\nis really f/14.3",
             ha="left", va="top", fontsize=8.5, bbox=BOX)
-    ax.text(0.012, 10.45, "a small artefact at the long end,\n"
+    ax.text(0.012, 10.45, "a small artifact at the long end,\n"
             "focused close, sits at about 0.3\u00d7",
             ha="left", va="center", fontsize=8.5, bbox=BOX)
 

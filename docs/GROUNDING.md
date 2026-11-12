@@ -1,6 +1,6 @@
 # Grounded, and then checked against the camera
 
-The objection to a book like this is reasonable: an AI assistant will state a wrong menu path in the same confident tone as a right one, so why trust 301 pages of them.
+The objection to a book like this is reasonable: an AI assistant will state a wrong menu path in the same confident tone as a right one, so why trust over 300 pages of them.
 
 The answer is in two halves. The assistant never worked from memory, and nothing it wrote went into the book until the person who owns the camera had been through it with the camera in hand.
 
